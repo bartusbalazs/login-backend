@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class TeamController {
 
-    @GetMapping("/teams")
+    @GetMapping("api/teams")
     List<TeamDTO> all() {
         List<TeamDTO> dtoList = new ArrayList<>();
         dtoList.add(new TeamDTO("0", "Brazil", 1837.56, "https://www.worldometers.info/img/flags/br-flag.gif"));
